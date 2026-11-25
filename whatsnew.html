@@ -59,6 +59,8 @@
     .end p { color: var(--muted); margin: 8px 0 24px; }
     .end .cta { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
     @media (max-width: 640px) { nav .links { display: none; } .rel { grid-template-columns: 48px 1fr; } .num { width: 48px; height: 48px; font-size: 15px; } .log::before { left: 23px; } .date { grid-column: 2; padding: 0; } }
+    .btn.store { border-color: rgba(120, 180, 255, .45); }
+    .btn.store:hover { border-color: rgba(120, 180, 255, .9); }
   </style>
 </head>
 <body>
@@ -82,7 +84,7 @@
         <div>
           <div class="ver">COMING NEXT</div>
           <h3>On the way</h3>
-          <ul><li>Aura on the Microsoft Store, plus more ideas from people who use it. Have a wish? Tell us through Support below.</li></ul>
+          <ul><li>More ideas from people who use Aura. Have a wish? Tell us through Support below.</li></ul>
         </div>
         <div class="date">Soon</div>
       </article>
@@ -154,6 +156,7 @@
       <div class="cta">
         <a class="btn primary" href="https://vetlhstneflbnajkiyvj.supabase.co/storage/v1/object/public/releases/Aura-setup.exe">Download free trial</a>
         <a class="btn ghost" href="index.html#price">Buy Aura · $2.99</a>
+        <a class="btn ghost store" href="https://apps.microsoft.com/detail/9PH2Z3V3NKCK?mode=direct" target="_blank" rel="noopener">Get it on the Microsoft Store</a>
       </div>
     </div>
 
